@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products,
+.cart {
+    width: 300px;
+}
+
+.product {
+
+    margin-top: 20px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+.sum {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
